@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import login,schemas
+import login
 
 app = MultiApp()
 app.add_app("Login", login.app)
